@@ -1,0 +1,21 @@
+// AppRouter.js
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/homepage/HomePage';
+import BookPage from './pages/bookpage/BookPage';
+import BookDetailsPage from './pages/bookdetailspage/BookDetails';
+
+const AppRouter = () => {
+    return (
+        <Router>
+            <Routes>
+                <Route path="/homepage" element={<HomePage />} />
+                <Route path="/books" element={<BookPage />} />
+                <Route path="/book-details/:id" element={<BookDetailsPage/>} />
+                <Route path="*" element={<HomePage />} />
+            </Routes>
+        </Router>
+    );
+};
+
+export default AppRouter;

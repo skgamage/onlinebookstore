@@ -1,10 +1,15 @@
 import React from "react";
+import Showcase from "../../componants/layouts/showcase/Showcase";
+import ProductListing from "../../componants/layouts/productlisting/ProductListing";
+import Footer from "../../componants/layouts/footer/Footer";
 
 const HomePage = () => {
     return (
-        <div>
-            <h1>HomePage</h1>
-        </div>
+        <section> 
+            <Showcase/>
+            <ProductListing />
+            <Footer />
+        </section>
     )
 }
 

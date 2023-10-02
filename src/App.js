@@ -1,18 +1,14 @@
+// import { Routes, route } from "react-router-dom";
 
+import AppRouter from './AppRouter';
 
-
-
-function App() {
+const App = () => {
   return (
-
-    <div className="App">
-
-      <h1>home</h1>
-
+    <div>
+      <h1>adfdf</h1>
+      
     </div>
-
-  );
-
+  )
 }
 
 
