@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <section className="footer-container">
             <div className="container">
-                <h2>If you have any quaries feel free to ask here</h2>
+                <h2>If you have any queries feel free to ask here</h2>
 
                 <form className="footer-form">
                     <div className="form-group">
@@ -19,8 +19,8 @@ const Footer = () => {
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="quary" className="form-label">Quary</label>
-                        <textarea className="form-input" id="quary" placeholder="Type your Quary"></textarea>
+                        <label htmlFor="query" className="form-label">query</label>
+                        <textarea className="form-input" id="query" placeholder="Type your Query"></textarea>
                     </div>
 
                     <div className="form-group">

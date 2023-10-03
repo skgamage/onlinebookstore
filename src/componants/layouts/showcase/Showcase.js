@@ -7,7 +7,7 @@ const Showcase = () => {
     return (
         <section  className="showcase-container">
 
-            <Navbar />
+            <Navbar darkTheme={false} />
 
            <div className="overlay"></div>
            <div className="showcase-content">

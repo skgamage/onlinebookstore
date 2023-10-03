@@ -1,7 +1,8 @@
 import React from "react";
 import './navbar.styles.css';
 
-const Navbar = () => {
+const Navbar = ({ darkTheme }) => {
+
     return (
         <section className="navbar-container">
             <div className="container flex justify-between align-center">
