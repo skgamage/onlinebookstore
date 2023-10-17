@@ -1,20 +1,26 @@
 .product-listing-card{
     border: 1px solid #aaa;
     width: fit-content;
-    padding-right: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem 1rem;
     border-radius: 10px;
+}
+
+.product-listing-img-container{
+    width: 200%;
+    height: 15rem;
+    
 }
 
 .product-listing-image{
     width: 200px;
-    padding-left: 3rem;
+    height: 100%;
+    object-fit: contain;
 }
 
 .product-listing-details-container{
     padding-top: 2rem;
-    padding-left: 3rem;
+    min-height: 10rem;
+    
 }
 
 .author-name{

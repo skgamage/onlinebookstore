@@ -44,3 +44,21 @@ h1{
 span{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.button-primary{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--primary-colour-bright);
+    color: #fff;
+    text-decoration: none;
+    margin-top: 2rem;
+    box-shadow: 2px 2px 5px #ddd;
+    transition: 0.2s ease-in;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-primary:hover{
+    background-color:#222;
+
+}
